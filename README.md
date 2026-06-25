@@ -78,3 +78,10 @@ Sensação: Muito Quente
 Resumo do dia:
 Registros válidos: 4
 Registros inválidos: 2
+
+
+
+
+Dupla: Jéssica Lange Miranda Barbosa e Sadrack Maia Jesus
+Curso: Técnico em Inteligência Artificial
+Disciplina: Programação em Python
