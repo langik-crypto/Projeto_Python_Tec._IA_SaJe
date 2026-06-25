@@ -1,75 +1,94 @@
-Conversor e Validador de Dados Climáticos de Manaus
+# 🌦️ Conversor e Validador de Dados Climáticos de Manaus
 
-Descrição:
+## 📖 Descrição
 
-Este projeto foi desenvolvido para a disciplina de Programação em Python e tem como objetivo processar registros climáticos simulados de uma estação meteorológica de Manaus.
+Este projeto foi desenvolvido para o Componente Curricular de **Programação em
+Python** e tem como objetivo processar registros climáticos simulados de
+uma estação meteorológica de Manaus.
 
-O sistema recebe dados no formato:
+O sistema recebe dados no seguinte formato:
 
+``` text
 32.5C,85%
+```
 
 Onde:
 
-* O primeiro valor representa a temperatura em graus Celsius.
-* O segundo valor representa a umidade relativa do ar em porcentagem.
+-   **Temperatura** em graus Celsius (`°C`);
+-   **Umidade relativa do ar** em porcentagem (`%`).
 
-O programa realiza a validação dos dados, identifica registros inválidos, converte temperaturas para Fahrenheit, classifica a sensação térmica e gera um resumo das condições climáticas observadas.
+O programa realiza a validação dos dados, identifica registros
+inválidos, converte temperaturas para Fahrenheit, classifica a sensação
+térmica e gera um resumo das condições climáticas observadas.
 
+------------------------------------------------------------------------
 
-Funcionalidades:
+## 🚀 Funcionalidades
 
-* Leitura de registros climáticos.
-* Parsing de strings para obtenção de temperatura e umidade.
-* Validação de dados corrompidos ou fora das faixas aceitáveis.
-* Conversão de temperatura de Celsius para Fahrenheit.
-* Classificação da sensação térmica.
-* Geração de relatório climático.
-* Resumo estatístico do dia.
+-   Leitura de registros climáticos;
+-   Parsing de strings para obtenção de temperatura e umidade;
+-   Validação de dados corrompidos ou fora das faixas aceitáveis;
+-   Conversão de temperatura de Celsius para Fahrenheit;
+-   Classificação da sensação térmica;
+-   Geração de relatório climático;
+-   Resumo estatístico dos registros processados.
 
+------------------------------------------------------------------------
 
+## 🛠️ Tecnologias Utilizadas
 
-Tecnologias Utilizadas:
+-   Python 3
 
-* Python 3
+------------------------------------------------------------------------
 
+## 📂 Estrutura dos Dados
 
+### Formato da entrada
 
-Estrutura dos Dados:
-
-Exemplo de entrada:
-
-32.5C,85%
-
-Formato:
-
+``` text
 TemperaturaC,Umidade%
+```
 
-Exemplos válidos:
+### Exemplo
 
+``` text
+32.5C,85%
+```
+
+### Exemplos de registros válidos
+
+``` text
 32.5C,85%
 28C,70%
 40C,95%
+```
 
-Exemplos inválidos:
+### Exemplos de registros inválidos
 
+``` text
 50C,30%
 30C,110%
 abc
+```
 
+------------------------------------------------------------------------
 
+## ▶️ Como Executar
 
-Como Executar:
+1.  Instale o **Python 3** em seu computador;
+2.  Baixe ou clone este repositório;
+3.  Abra o terminal na pasta do projeto;
+4.  Execute:
 
-1. Instale o Python 3.
-2. Baixe ou clone este repositório.
-3. Execute o arquivo principal:
-
+``` bash
 python trabalho.py
+```
 
+------------------------------------------------------------------------
 
+## 💻 Exemplo de Saída
 
-Exemplo de Saída:
-
+``` text
 Temperatura: 32.5°C
 Fahrenheit: 90.5°F
 Umidade: 85%
@@ -78,10 +97,17 @@ Sensação: Muito Quente
 Resumo do dia:
 Registros válidos: 4
 Registros inválidos: 2
+```
 
+------------------------------------------------------------------------
 
+## 👥 Integrantes
 
+-   **Jéssica Lange Miranda Barbosa**
+-   **Sadrack Maia Jesus**
 
-Dupla: Jéssica Lange Miranda Barbosa e Sadrack Maia Jesus
-Curso: Técnico em Inteligência Artificial
-Disciplina: Programação em Python
+## 🎓 Informações Acadêmicas
+
+**Curso:** Técnico em Inteligência Artificial
+
+**Disciplina:** Programação em Python
