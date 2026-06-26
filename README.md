@@ -111,3 +111,7 @@ Registros inválidos: 2
 **Curso:** Técnico em Inteligência Artificial
 
 **Disciplina:** Programação em Python
+
+------------------------------------------------------------------------
+
+Link COLAB: https://colab.research.google.com/drive/1UTGjBrojX357GLtSlxCSaTqFY0xzECS4?usp=sharing
